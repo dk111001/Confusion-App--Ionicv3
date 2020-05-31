@@ -17,6 +17,7 @@
     "@angular/compiler-cli": "5.2.11",
     "@angular/core": "5.2.11",
     "@angular/forms": "5.2.11",
+    "@angular/http": "^7.2.16",
     "@angular/platform-browser": "5.2.11",
     "@angular/platform-browser-dynamic": "5.2.11",
     "@ionic-native/core": "4.20.0",
@@ -31,6 +32,7 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.2.4",
+    "@ionic/lab": "3.1.6",
     "typescript": "2.6.2"
   },
   "description": "An Ionic project"
