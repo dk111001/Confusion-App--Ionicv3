@@ -54,6 +54,19 @@
     </p>
   </ion-item>
 </ion-list>
+
+<ion-fab class="right-bottom" [hidden]="favorite">
+  <button ion-fab (click)="addToFavorites()">
+    <ion-icon name="heart-outline"></ion-icon>
+  </button>
+</ion-fab>
+<ion-fab class="right-bottom" *ngIf="favorite">
+  <button ion-fab>
+    <ion-icon name="heart"></ion-icon>
+  </button>
+</ion-fab>
+
+
 <div class="bottom-up">
   
 </div>
