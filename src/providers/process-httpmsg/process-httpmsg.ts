@@ -5,9 +5,8 @@ import 'rxjs/add/observable/throw';
 
 /*
   Generated class for the ProcessHttpmsgProvider provider.
-
-  See https://angular.io/guide/dependency-injection for more info on providers
-  and Angular DI.
+  See https://angular.io/docs/ts/latest/guide/dependency-injection.html
+  for more info on providers and Angular 2 DI.
 */
 @Injectable()
 export class ProcessHttpmsgProvider {
