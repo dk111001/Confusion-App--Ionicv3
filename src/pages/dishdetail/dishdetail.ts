@@ -41,5 +41,6 @@ export class DishdetailPage {
     console.log('Adding to Favorites', this.dish.id);
     this.favorite = this.favoriteservice.addFavorite(this.dish.id);
   }
+  
 
 }
