@@ -18,6 +18,16 @@
 .margin{
   top: 20px !important;
 }
+
+$lt-gray: #ddd;
+$background-dark: #512DA8;
+$background-light: #9575CD;
+$background-pale: #D1C4E9;
+
+.background-pale {
+    background-color: $background-pale
+}
+
 page-home  { // replaced by your page HERE
      top: 20px !important;
   }
